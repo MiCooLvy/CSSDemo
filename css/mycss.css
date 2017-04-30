@@ -1,0 +1,78 @@
+.spinner{
+    width: 100%;
+    height: 1px;
+    margin: 100px auto;
+    text-align: center;
+}
+.spinner > div{
+    display: inline-block;
+    width:3px;
+    height: 100%;
+    background: green;
+    -webkit-animation: strechdelay 2.0s infinite ease-in-out;
+}
+.spinner .line2{
+    -webkit-animation-delay: -1.9s;
+}
+.spinner .line3{
+    -webkit-animation-delay: -1.8s;
+}
+.spinner .line4{
+    -webkit-animation-delay: -1.7s;
+}
+.spinner .line5{
+    -webkit-animation-delay: -1.6s;
+}
+.spinner .line6{
+    -webkit-animation-delay: -1.5s;
+}
+.spinner .line7{
+    -webkit-animation-delay: -1.4s;
+}
+.spinner .line8{
+    -webkit-animation-delay: -1.3s;
+}
+.spinner .line9{
+    -webkit-animation-delay: -1.2s;
+}
+.spinner .line0{
+    -webkit-animation-delay: -1.1s;
+}
+.spinner .line01{
+    -webkit-animation-delay: -1.0s;
+}
+.spinner .line02{
+    -webkit-animation-delay: -0.9s;
+}
+.spinner .line03{
+    -webkit-animation-delay: -0.8s;
+}
+.spinner .line04{
+    -webkit-animation-delay: -0.7s;
+}
+.spinner .line05{
+     -webkit-animation-delay: -0.6s;
+ }
+.spinner .line06{
+      -webkit-animation-delay: -0.5s;
+}
+.spinner .line07{
+    -webkit-animation-delay: -0.4s;
+}
+.spinner .line08{
+    -webkit-animation-delay: -0.3s;
+}
+.spinner .line09{
+    -webkit-animation-delay: -0.2s;
+}
+.spinner .line10{
+    -webkit-animation-delay: -0.1s;
+}
+@-webkit-keyframes strechdelay {
+    0%,40%,100%{
+        -webkit-transform: scaleY(.4);
+    }
+    20%{
+        -webkit-transform: scaleY(30);
+    }
+}
