@@ -1,0 +1,16 @@
+Index: bar.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- bar.html	(revision 0fdb6be7fed3e6fa431c3c987fbf83b8d2efe2ca)
++++ bar.html	(revision )
+@@ -42,7 +42,7 @@
+         <section class="purple-section" ></section>
+ 
+     </div><!-- 内容结束 -->
+-
++<p></p>
+     <footer><!-- 页脚开始 -->
+ 
+     </footer><!-- 页脚结束 -->
