@@ -10,13 +10,13 @@ body{
 }
 
 nav{
-    background: #cccccc;
+    background: transparent;
     height: 50px;
 }
 
 #banner{
-    background: #aaaaaa;
-    height: 700px;
+    background: transparent;
+    height: 800px;
 }
 
 nav ul{
@@ -53,6 +53,7 @@ nav ul li.tit{
 
 #banner .inner h1{
     margin: 0;
+    color: #50a6c3
 }
 
 button{
@@ -63,11 +64,11 @@ button{
 }
 
 #banner button{
-    padding: 14px 60px;
+    padding: 14px 38px;
 }
 
 #banner .inner .more{
-    margin-top: 200px;
+    margin-top: 260px;
     color: #eeeeee;
 }
 
@@ -102,7 +103,7 @@ h3{
 }
 
 p{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
@@ -217,7 +218,7 @@ p{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
+    text-align: center;
 }
 
 .card:first-child{
@@ -244,5 +245,33 @@ p{
     background: rgba(0,0,0,0.24);
 }
 
+footer{
+    background: #333333;
+    color: #ffffff;
+    min-height: 200px;
+    text-align: center;
+}
 
+ul.share-group{
+    display: block;
+    width:1080px;
+    margin: 0 auto;
+    padding: 30px;
+}
 
+.share-group li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.copy{
+    padding-bottom: 20px;
+}
+
+.main-wrapper{
+    background: #444 url(../img/b3.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
